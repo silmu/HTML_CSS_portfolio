@@ -104,6 +104,7 @@ header nav a:hover {
 /* Footer */
 footer {
   background-color: #030027ff;
+  font-size: 0.8rem;
   font-weight: lighter;
   text-align: center;
   color: #648ca6ff;
@@ -113,7 +114,7 @@ footer {
 }
 footer a {
   font-weight: lighter;
-  color: #648ca6ff;
+  color: #f89dc0;
   text-decoration: none;
 }
 
@@ -122,6 +123,50 @@ footer a:hover {
 }
 .footer {
   padding: 20px 20px;
+}
+.footer fieldset {
+  display: block;
+  margin: 10px auto;
+  border: none;
+}
+.footer fieldset h3 {
+  font-size: 1rem;
+  margin: 10px auto;
+}
+.footer fieldset label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+  font-size: small;
+  margin-left: 0px;
+}
+.footer fieldset input {
+  display: inline-block;
+  width: 180px;
+  border: transparent;
+  border-radius: 2px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.footer fieldset textarea {
+  display: inline-block;
+  vertical-align: top;
+  width: 180px;
+  border: transparent;
+  border-radius: 2px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.footer button {
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: #8d007a;
+  border: 1px solid #8d007a;
+  border-radius: 2px;
+  color: white;
+  text-transform: uppercase;
+  font-size: x-small;
+  margin: 10px auto;
 }
 .go_up {
   display: inline-block;
