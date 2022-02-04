@@ -157,13 +157,13 @@ footer a:hover {
 }
 .footer button {
   display: inline-block;
-  padding: 5px 20px;
+  padding: 10px 25px;
   background-color: #f89dc0;
-  border: 1px solid #f89dc0;
+  border: 3px solid #f89dc0;
   border-radius: 2px;
   color: white;
   text-transform: uppercase;
-  font-size: x-small;
+  font-size: small;
   margin: 10px auto;
 }
 .go_up {
