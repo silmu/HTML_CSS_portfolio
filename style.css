@@ -5,10 +5,9 @@
   /* border: 1px solid green; */
 }
 body {
-  background-color: aliceblue;
+  background-color: #f0f8ff;
   color: #212529;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1rem;
 
   background: url('https://images.unsplash.com/photo-1454789548928-9efd52dc4031?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80')
@@ -28,7 +27,12 @@ body {
   display: inline-block;
   height: 13rem;
 }
-
+h1 {
+  font-weight: lighter;
+}
+h2 {
+  padding-bottom: 10px;
+}
 /* Header */
 header {
   color: #c9e2ef;
@@ -40,7 +44,6 @@ header {
 header h1 {
   height: 50px;
   padding: 20px;
-  font-weight: lighter;
   display: inline-block;
 }
 header nav a {
@@ -69,7 +72,7 @@ header nav a:hover {
   font-size: 5vh;
   font-weight: lighter;
   text-align: center;
-  color: rgba(95, 134, 160, 0.5);
+  color: #5f86a080;
   padding-top: 30vh;
 }
 
@@ -80,13 +83,9 @@ header nav a:hover {
   min-height: 300px;
 }
 
-.section h2 {
-  padding-bottom: 10px;
-}
-
 #about_me,
 #bch {
-  background-color: rgb(100, 140, 166, 0.2);
+  background-color: #648ca633;
 }
 
 #projects img,
@@ -130,7 +129,6 @@ footer a:hover {
   border: none;
 }
 .footer fieldset h3 {
-  font-size: 1rem;
   margin: 10px auto;
 }
 .footer fieldset label {
@@ -160,8 +158,8 @@ footer a:hover {
 .footer button {
   display: inline-block;
   padding: 5px 20px;
-  background-color: #8d007a;
-  border: 1px solid #8d007a;
+  background-color: #f89dc0;
+  border: 1px solid #f89dc0;
   border-radius: 2px;
   color: white;
   text-transform: uppercase;
